@@ -1,26 +1,68 @@
-\# E-pood IT infrastruktuur
+\# 🛒 LePood – IT infrastruktuuri projekt
 
 
 
-\## Projekti kirjeldus
+\## 📌 Ülevaade
 
-See projekt keskendub e-poe IT infrastruktuuri planeerimisele ja teostusele.
-
-
-
-\## Stsenaarium
-
-\- Kasutajate arv: 9
-
-\- Ettevõtte tüüp: E-pood
-
-\- Eritingimus: Varukoopiad on kohustuslikud
+See projekt kirjeldab e-poe IT infrastruktuuri disaini, teostust ja põhjendusi.
 
 
 
-\## Meeskond
+\---
 
-\- Marten - Otsustav isik
 
-\- Ruuben 
+
+\## 📊 Stsenaarium
+
+\- 👥 Kasutajaid: 9
+
+\- 🏪 Ettevõte: E-pood
+
+\- ⚠️ Eritingimus: Varukoopiad on kohustuslikud
+
+
+
+\---
+
+
+
+\## 🎯 Eesmärk
+
+Luua turvaline, skaleeritav ja töökindel e-poe IT süsteem.
+
+
+
+\---
+
+
+
+\## 🏗️ Süsteemi komponendid
+
+\- 🌐 Web server (Nginx)
+
+\- ⚙️ Application server
+
+\- 🗄️ Database server (PostgreSQL)
+
+\- 💾 Backup süsteem
+
+
+
+\---
+
+
+
+\## 👥 Meeskond
+
+9-liikmeline meeskond, kus iga liikmel on selge roll.
+
+
+
+\---
+
+
+
+\## 📂 Dokumentatsioon
+
+Kõik tehnilised kirjeldused asuvad kaustades `/docs` ja `/infrastructure`.
 

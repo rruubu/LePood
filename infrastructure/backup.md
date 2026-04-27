@@ -1,34 +1,56 @@
-\# Varukoopiad
+\# 💾 Varukoopiad
 
 
 
-\## Nõue
+\## ⚠️ Nõue
 
 Varukoopiad on kohustuslikud.
 
 
 
-\## Lahendus
-
-\- Iga päev automaatne backup
-
-\- Andmebaasi dump
-
-\- Failide koopia
+\---
 
 
 
-\## Tööriistad
+\## 🔄 Lahendus
 
-\- rsync / cron job
+\- igapäevane automaatne backup
 
-\- või pilv (AWS S3 / Google Drive)
+\- andmebaasi dump
+
+\- failide kopeerimine
 
 
 
-\## Säilitamine
+\---
 
-\- 7 päeva backup
 
-\- 1 nädalane full snapshot
+
+\## ☁️ Asukoht
+
+\- eraldi backup server või pilveteenus
+
+
+
+\---
+
+
+
+\## ⏳ Säilitamine
+
+\- 7 päeva backupid
+
+\- 1 täis backup nädalas
+
+
+
+\---
+
+
+
+\## 🔐 Turvalisus
+
+\- krüpteeritud andmed
+
+\- piiratud ligipääs
 
