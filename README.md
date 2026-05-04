@@ -1,292 +1,98 @@
-# \# 🛒 LePood
+\# 🛒 LePood
 
-# 
 
-# !\[Status](https://img.shields.io/badge/status-in%20progress-yellow)
 
-# !\[Project](https://img.shields.io/badge/project-IT%20Infrastructure-blue)
+\## 📌 Ülevaade
 
-# !\[Backup](https://img.shields.io/badge/backup-required-important)
+LePood on IT infrastruktuuri projekt, kus seadistatakse e-poe jaoks server, andmebaas ja backup süsteem.
 
-# !\[Team](https://img.shields.io/badge/team-2-purple)
 
-# 
 
-# \---
+\---
 
-# 
 
-# \## 📌 Ülevaade
 
-# 
+\## 👥 Meeskond 2
 
-# \*\*LePood\*\* on e-poe IT infrastruktuuri projekt, mille eesmärk on disainida ja üles seada toimiv, turvaline ja hallatav serverikeskkond.
 
-# 
 
-# Projekt keskendub:
+\*\*Stsenaarium:\*\* 9 kasutajat, e-pood, varukoopiad on kohustuslikud
 
-# 
 
-# \* infrastruktuuri planeerimisele
 
-# \* serverite seadistamisele
+\- Marten – otsustav isik  
 
-# \* varukoopiate süsteemile
+\- Ruuben  
 
-# \* dokumentatsioonile
+\- Kristofer Niitav  
 
-# 
 
-# \---
 
-# 
+\---
 
-# \## 👥 Meeskond 2
 
-# 
 
-# \*\*Stsenaarium:\*\*
+\## 🧱 Süsteem
 
-# \*\*9 kasutajat · e-pood · varukoopiad on kohustuslikud\*\*
 
-# 
 
-# \*\*Liikmed:\*\*
+\- Server: VPS (Ubuntu 22.04)  
 
-# 
+\- Veebiserver: Nginx  
 
-# \* \*\*Marten\*\* – otsustav isik
+\- Andmebaas: MySQL  
 
-# \* \*\*Ruuben\*\*
+\- Rakendus: Node.js / PHP  
 
-# \* \*\*Kristofer Niitav\*\*
 
-# 
 
-# \---
+\---
 
-# 
 
-# \## 🧱 Infrastruktuur
 
-# 
+\## 💾 Backup
 
-# | Komponent   | Tehnoloogia        |
 
-# | ----------- | ------------------ |
 
-# | Server      | VPS (Ubuntu 22.04) |
+\- Tehakse iga päev kell 02:00  
 
-# | Veebiserver | Nginx              |
+\- Asukoht: `/var/backups/lepood/`  
 
-# | Rakendus    | Node.js / PHP      |
+\- Käivitamine: `./scripts/backup.sh`  
 
-# | Andmebaas   | MySQL              |
 
-# | Backup      | Bash script + cron |
 
-# 
+\---
 
-# \---
 
-# 
 
-# \## 🏗️ Arhitektuur
+\## 📂 Struktuur
 
-# 
 
-# ```text
 
-# Kasutaja
+docs/        dokumentatsioon  
 
-# &#x20;  ↓
+scripts/     backup ja setup  
 
-# \[Nginx]
+configs/     serveri seadistused  
 
-# &#x20;  ↓
 
-# \[Rakendus]
 
-# &#x20;  ↓
+\---
 
-# \[MySQL]
 
-# ```
 
-# 
+\## 🚀 Setup
 
-# \---
 
-# 
 
-# \## 💾 Backup süsteem (KOHUSTUSLIK)
+```bash
 
-# 
+git clone https://github.com/rruubu/LePood
 
-# \*\*Mis varundatakse:\*\*
+cd LePood
 
-# 
+npm install
 
-# \* Rakenduse failid
-
-# \* Andmebaas
-
-# 
-
-# \*\*Automaatika:\*\*
-
-# 
-
-# \* Iga päev kell \*\*02:00\*\* (cron)
-
-# 
-
-# \*\*Asukoht:\*\*
-
-# 
-
-# ```bash
-
-# /var/backups/lepood/
-
-# ```
-
-# 
-
-# \*\*Käivitamine:\*\*
-
-# 
-
-# ```bash
-
-# ./scripts/backup.sh
-
-# ```
-
-# 
-
-# \*\*Taastamine:\*\*
-
-# 
-
-# ```bash
-
-# ./scripts/restore.sh
-
-# ```
-
-# 
-
-# \---
-
-# 
-
-# \## 🔐 Turvalisus
-
-# 
-
-# \* SSH ainult võtmega
-
-# \* Firewall (UFW)
-
-# \* Andmebaas lokaalne ligipääs
-
-# \* Regulaarne uuendamine
-
-# 
-
-# \---
-
-# 
-
-# \## 📂 Projekti struktuur
-
-# 
-
-# ```bash
-
-# LePood/
-
-# │── README.md
-
-# │── TEAM.md
-
-# │
-
-# ├── docs/
-
-# ├── configs/
-
-# ├── scripts/
-
-# ├── docker/
-
-# ```
-
-# 
-
-# \---
-
-# 
-
-# \## ⚙️ Setup
-
-# 
-
-# ```bash
-
-# git clone https://github.com/rruubu/LePood
-
-# cd LePood
-
-# npm install
-
-# npm start
-
-# ```
-
-# 
-
-# \---
-
-# 
-
-# \## 📚 Dokumentatsioon
-
-# 
-
-# \* docs/infrastructure.md
-
-# \* docs/architecture.md
-
-# \* docs/backup.md
-
-# \* docs/security.md
-
-# \* docs/setup.md
-
-# 
-
-# \---
-
-# \## 🚀 Projekti staatus
-
-# 
-
-# 🟡 Töös (in progress)
-
-# 
-
-# \---
-
-# 
-
-# \## 📌 Märkused
-
-# 
-
-# Projekt on loodud õppetöö raames ning keskendub praktilisele IT infrastruktuuri ülesehitusele ja haldusele.
-
-
+npm start
 
