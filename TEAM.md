@@ -1,36 +1,36 @@
-\# Meeskond
+# Meeskond
 
 
 
-\## Liikmed ja rollid
+## Liikmed ja rollid
 
 
 
-\*\*Marten (otsustav isik):\*\*
+*\*Marten (otsustav isik):\*\*
 
-\- Projekti juhtimine
+- Projekti juhtimine
 
-\- Infrastruktuuri planeerimine
-
-
-
-\*\*Ruuben:\*\*
-
-\- Serveri seadistamine
-
-\- Nginx konfiguratsioon
+- Infrastruktuuri planeerimine
 
 
 
-\*\*Kristofer Niitav:\*\*
+*\*Ruuben:\*\*
 
-\- Backup süsteem
+- Serveri seadistamine
 
-\- Dokumentatsioon
+- Nginx konfiguratsioon
 
 
 
-\## Kokkuvõte
+*\*Kristofer Niitav:\*\*
+
+- Backup süsteem
+
+- Dokumentatsioon
+
+
+
+## Kokkuvõte
 
 
 
