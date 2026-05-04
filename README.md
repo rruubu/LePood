@@ -36,7 +36,7 @@ LePood on IT infrastruktuuri projekt, kus seadistatakse e-poe jaoks server, andm
 
 
 
-- Server: VPS (Ubuntu 22.04)  
+- Server: Ubuntu server (Ubuntu 22.04)  
 
 - Veebiserver: Nginx  
 
