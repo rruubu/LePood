@@ -1,38 +1,14 @@
-# Meeskond
+# LePood meeskond
 
+## Meeskonna rollid ja liikmed
 
+- Marten – Otsustav isik (projekti juht, deploy ja koordineerimine)
+- Ruuben – Infrastruktuur (Docker, serveri seadistus, Nginx)
+- Kristofer – Backup süsteem (varukoopiad ja taastamine)
 
-## Liikmed ja rollid
-
-
-
-*\*Marten (otsustav isik):\*\*
-
-- Projekti juhtimine
-
-- Infrastruktuuri planeerimine
-
-
-
-*\*Ruuben:\*\*
-
-- Serveri seadistamine
-
-- Nginx konfiguratsioon
-
-
-
-*\*Kristofer Niitav:\*\*
-
-- Backup süsteem
-
-- Dokumentatsioon
-
-
-
-## Kokkuvõte
-
-
-
-Töö jaotati meeskonna vahel, et katta kõik projekti nõuded.
-
+- Karl – Frontend / WordPress seadistus
+- Laura – Andmebaas (MySQL haldus ja konfiguratsioon)
+- Markus – Turvalisus (firewall, kasutajate õigused)
+- Anna – Dokumentatsioon (GitHub README ja docs)
+- Sander – Testimine (süsteemi testimine ja vead)
+- Maria – Kasutajate haldus (Linux userid, grupid)
