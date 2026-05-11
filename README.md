@@ -1,83 +1,18 @@
-# 🛒 LePood
+# LePood – IT infrastruktuuri projekt
 
+## Projekti kirjeldus
+LePood on väike e-poe süsteem, mis töötab Docker konteinerites.
 
+## Kasutatud tehnoloogiad
+- Docker
+- WordPress (e-pood)
+- MySQL (andmebaas)
+- Ubuntu Server
 
-## 📌 Ülevaade
+## Teenused
+- WordPress veebileht (port 8080)
+- MySQL andmebaas (port 3306)
 
-LePood on IT infrastruktuuri projekt, kus seadistatakse e-poe jaoks server, andmebaas ja backup süsteem.
-
-
-
----
-
-
-
-## 👥 Meeskond 2
-
-
-
-*\*Stsenaarium:\*\* 9 kasutajat, e-pood, varukoopiad on kohustuslikud
-
-
-
-- Marten – otsustav isik  
-
-- Ruuben  
-
-- Kristofer Niitav  
-
-
-
----
-
-
-
-## 🧱 Süsteem
-
-
-
-- Server: Ubuntu server (Ubuntu 22.04)  
-
-- Veebiserver: Nginx  
-
-- Andmebaas: MySQL  
-
-- Rakendus: Node.js / PHP  
-
-
-
----
-
-
-
-## 💾 Backup
-
-
-
-- Tehakse iga päev kell 02:00  
-
-- Asukoht: `/var/backups/lepood/`  
-
-- Käivitamine: `./scripts/backup.sh`  
-
-
-
----
-
-
-
-## 📂 Struktuur
-
-
-
-docs/        dokumentatsioon  
-
-scripts/     backup ja setup  
-
-configs/     serveri seadistused  
-
-
-
----
-
-
+## Käivitamine
+```bash
+docker-compose up -d
