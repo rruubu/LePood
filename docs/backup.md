@@ -1,12 +1,9 @@
 ## Testimine
 
-Backup süsteem töötab:
+Backup ja restore on testitud:
 
-- Luuakse kaust `backups/`
-- Salvestatakse container info
-- Salvestatakse image info
+- Backup loob failid `backups/` kausta
+- Restore taastab süsteemi
+- Süsteem töötab pärast taastamist
 
-Test:
-```bash
-./scripts/backup.sh
-ls backups/
+Tulemus: süsteem on taastatav ✔

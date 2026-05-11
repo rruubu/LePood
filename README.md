@@ -16,3 +16,11 @@ LePood on väike e-poe süsteem, mis töötab Docker konteinerites.
 ## Käivitamine
 ```bash
 docker-compose up -d
+
+## Arhitektuur
+
+User → Nginx → WordPress → MySQL
+
+Backup süsteem:
+scripts/backup.sh → backups/
+scripts/restore.sh → taastab süsteemi
