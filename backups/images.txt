@@ -1,0 +1,6 @@
+IMAGE              ID             DISK USAGE   CONTENT SIZE   EXTRA
+mariadb:latest     e0236fc6386e        467MB          111MB        
+mysql:5.7          4bc6bc963e6d        700MB          149MB   U    
+nginx:latest       1881968aff6f        240MB         65.8MB   U    
+postgres:16        5d143123fdf8        641MB          166MB        
+wordpress:latest   a4447c867c8f       1.08GB          275MB   U    
