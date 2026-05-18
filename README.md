@@ -69,11 +69,10 @@ Süsteemi käivitamiseks:
 
 ```bash
 docker-compose up -d
-
-
-
+```
 
 Süsteemi peatamiseks:
 
 ```bash
 docker-compose down
+```
